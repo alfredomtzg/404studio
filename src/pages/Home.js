@@ -7,7 +7,7 @@ const email = "hello@404studio.xyz";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <div>
           <center>
             <img
@@ -26,7 +26,7 @@ class Home extends React.Component {
             </span>
           </p>
         </div>
-      </div>
+      </>
     );
   }
 }
